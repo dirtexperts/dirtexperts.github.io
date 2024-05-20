@@ -1,0 +1,1293 @@
+/* 
+	======================== ***** ============================= 
+	Template Name: Cleanifer
+	Template URI: https://www.designtocodes.com/product/cleanifer-cleaning-service-bootstrap-template/
+	Description: This is the cleaning service template.
+	Version: 1.1.0
+	Author: designtocodes
+	Author URI: https://www.designtocodes.com
+	Text Domain: Cleanifer
+*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /* nav section start */
+
+  header .navbar {
+    position: absolute !important;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    background: var(--light-color);
+  }
+  header .navbar .navbar-toggler:focus {
+    outline: none;
+  }
+  header .navbar .navbar-nav li:first-child {
+    margin-top: 15px;
+  }
+  header .navbar .navbar-nav li {
+    width: 100%;
+    background: #f3f3f3;
+    margin: 3px 0px;
+    padding: 0px;
+  }
+  header .navbar .navbar-nav li .d2c_primary_button {
+    width: 100%;
+  }
+  header .navbar .navbar-nav li:last-child {
+    background-color: transparent;
+  }
+
+  header .navbar .nav-item .dropdown-menu {
+    padding: 15px;
+  }
+
+  header .navbar .nav-link{
+    padding-left: 15px;
+    font-size: 14px;
+  }
+  header .navbar .nav-item .dropdown-menu a{
+    padding: 0px;
+  }
+
+  /* nav section end */
+
+  /* ====== Global banner responsive css */
+  main section .d2c_banner_area .d2c_banner_title .d2c_title {
+    font-size: 36px;
+  }
+  main section .d2c_banner_area {
+    padding: 50px 0px;
+    margin-top: 70px;
+  }
+  /* ======== global title left image  */
+  main section .d2c_section_title .d2c_title img {
+    display: none;
+  }
+  main section .d2c_section_title .d2c_title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  /* ======================== home page css responsive start ============================= */
+
+  /* banner start */
+  .d2c_hero_banner {
+    height: 55vh;
+    margin-top: 70px;
+  }
+  .d2c_hero_banner .d2c_hero_banner_content h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .d2c_hero_banner .d2c_hero_banner_content .d2c_learn_more {
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .d2c_hero_banner .d2c_hero_banner_content .d2c_contact_us {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .d2c_hero_banner .d2c_hero_banner_content .d2c_learn_more {
+    padding: 5px 25px 6px 25px;
+  }
+  .d2c_hero_banner .d2c_hero_banner_content .d2c_contact_us {
+    padding: 5px 25px 6px 25px;
+  }
+  /* banner end */
+
+  /* about us section start */
+  .d2c_about_us {
+    padding: 50px 0px;
+  }
+  .d2c_home_section_header .d2c_section_paragraph {
+    width: 95%;
+    text-align: justify;
+  }
+  .d2c_about_us .d2c_about_content {
+    margin-top: 25px;
+  }
+  main section .d2c_section_title {
+    margin-bottom: 25px;
+  }
+  .d2c_about_us .d2c_about_content .d2c_about_left {
+    margin-bottom: 25px;
+  }
+  .d2c_about_us .d2c_about_content .d2c_about_right h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .d2c_about_us .d2c_about_content .d2c_about_right .d2c_right_title_bottom {
+    text-align: center;
+  }
+  .d2c_about_us .d2c_about_content .d2c_about_right h3 {
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .d2c_about_us .d2c_about_content .d2c_about_right h3 img {
+    width: 23px;
+  }
+  .d2c_about_us .d2c_about_content .d2c_about_right .d2c_read_more {
+    margin-top: 30px;
+  }
+  .d2c_about_us .d2c_about_content .d2c_read_more {
+    padding: 5px 25px 6px 25px !important;
+  }
+  /* about us section end */
+
+  /* services section start */
+
+  .d2c_home_services_main {
+    padding: 0px 0px 50px 0px;
+  }
+  .d2c_home_services_main .d2c_services_wrapper .d2c_services_column {
+    padding-top: 30px;
+  }
+  .d2c_services_wrapper .d2c_middle_column {
+    display: none !important;
+  }
+  .d2c_home_services_main .d2c_read_more {
+    padding: 5px 25px 6px 25px !important;
+  }
+
+  /* services section end */
+
+  /* pricing section start */
+  .d2c_packages_main .d2c_pricing_wrapper .d2c_pricing_content {
+    margin: 20px 0px;
+  }
+  .d2c_packages_main {
+    padding: 50px 0px;
+  }
+  .d2c_packages_main .d2c_section_title {
+    margin-bottom: 0px;
+  }
+  .d2c_packages_main .d2c_pricing_wrapper {
+    padding-top: 10px;
+  }
+  .d2c_packages_main .d2c_pricing_wrapper .d2c_read_more {
+    padding: 5px 25px 6px 25px !important;
+  }
+  .d2c_packages_main .d2c_pricing_wrapper .d2c_pricing_content h1 {
+    font-size: 25px;
+  }
+
+  /* pricing section end */
+
+  /* counter section start */
+  .d2c_counter_main .d2c_counter_content {
+    margin-bottom: 55px;
+  }
+  .d2c_counter_main {
+    padding: 100px 0px 50px 0px;
+  }
+
+  /* counter section end */
+
+  /* blog section start */
+  .d2c_home_blog {
+    padding: 50px 0px;
+  }
+  .d2c_home_blog {
+    margin-bottom: 0px;
+  }
+  .d2c_blog_post .d2c_primary_button {
+    padding: 5px 25px 6px 25px !important;
+  }
+
+  /* blog section end */
+
+  /* offer section start */
+
+  .d2c_offer h1 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .d2c_offer {
+    margin-top: 0px;
+  }
+
+  /* offer section end */
+
+  /* Testimonial section start */
+
+  .d2c_testimonial {
+    padding: 50px 0px;
+  }
+  .d2c_testimonial .d2c_testimonial_content p {
+    text-align: justify;
+  }
+  .d2c_testimonial .d2c_section_title {
+    margin-bottom: 0px;
+  }
+
+  /* Testimonial section end */
+
+  /* newsletter section start */
+  .d2c_newsletter {
+    padding: 50px 0px !important;
+  }
+  .d2c_newsletter input[type="email"] {
+    width: 100%;
+  }
+  .d2c_newsletter .btn {
+    padding: 5px 25px 6px 25px !important;
+  }
+
+  /* newsletter section end */
+
+  /* ======================== home page css responsive end ============================= */
+
+  /* ======================== about page css responsive start ============================= */
+
+  /* specials section start */
+  .d2c_specials {
+    padding: 50px 0px;
+  }
+
+  .d2c_specials .d2c_specials_header {
+    width: 95%;
+  }
+  .d2c_specials .d2c_specials_header p {
+    text-align: justify;
+    font-size: 16px;
+  }
+  .d2c_specials .d2c_about_img_wrapper {
+    width: 100%;
+    height: auto;
+  }
+  .d2c_specials .d2c_specials_right .d2c_specials_sub_title {
+    text-align: center;
+    margin: 50px auto 0px auto;
+    font-size: 30px;
+  }
+  .d2c_specials .d2c_specials_right .d2c_title_bottom {
+    width: 24%;
+    margin: 0 auto 20px auto;
+  }
+  .d2c_specials .d2c_specials_right h3 {
+    line-height: 45px;
+    font-size: 16px;
+  }
+  .d2c_specials .d2c_specials_right h3 img {
+    width: 20px;
+  }
+  /* specials section end */
+
+  /* call to action section start*/
+  .d2c_call_to_action {
+    padding: 50px 0px;
+  }
+  .d2c_call_to_action .d2c_action_content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .d2c_call_to_action .d2c_action_content p {
+    font-size: 16px;
+  }
+  .d2c_call_to_action .d2c_action_content .d2c_quote_btn {
+    padding: 5px 25px !important;
+    margin-top: 0px;
+  }
+
+  /* call to action section end*/
+
+  /* choose us section start */
+  .d2c_choose_us {
+    padding: 50px 0px;
+  }
+  .d2c_choose_us .d2c_choose_us_content p {
+    font-size: 16px;
+  }
+  .d2c_choose_us .d2c_choose_us_content .d2c_choose_icon_wrapper {
+    margin: 0 auto 20px auto;
+  }
+  .d2c_choose_us .d2c_choose_us_content h2 {
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  /* choose us section end */
+
+  /* team section start */
+  .d2c_team_section {
+    padding: 0px 0px 50px 0px;
+  }
+  .d2c_team_section .d2c_section_title {
+    margin-bottom: 25px;
+  }
+
+  /* team section end */
+
+  /* ======================== about page css responsive end ============================= */
+
+  /* ======================== Blog css responsive start ============================= */
+
+  main section .d2c_section_title p {
+    font-size: 14px;
+    text-align: left;
+  }
+  main section .d2c_blog_post .card .card-body .card-title {
+    font-size: 18px;
+  }
+  main section .d2c_blog_post .card .card-body .card-text {
+    font-size: 14px;
+  }
+  main section .d2c_blog_page_title {
+    padding-top: 50px;
+  }
+  main section .d2c_blog_post {
+    padding-bottom: 50px;
+  }
+  main section .d2c_blog_post .d2c_loadmore #d2c_post_loadMore {
+    margin-top: 40px;
+    padding: 5px 25px !important;
+  }
+
+  /* ======================== Blog css responsive end ============================= */
+
+  /* ======================== single Blog css responsive start ============================= */
+
+  main section .d2c_single_page_section {
+    padding: 50px 0px 0px 0px;
+  }
+  .d2c_single_page_section .d2c_right_post_content {
+    margin-bottom: 30px;
+  }
+  hr {
+    margin: 20px 0px 15px 0px !important;
+  }
+  .d2c_single_page_section .d2c_comment_section .d2c_secondary_button {
+    width: 100%;
+  }
+
+  /* ======================== single Blog css responsive start ============================= */
+
+  /* ======================== Contact css responsive end ============================= */
+
+  main section .d2c_contact_form .d2c_contact_details .d2c_title {
+    font-size: 27px;
+  }
+  main section .d2c_contact_form .d2c_contact_details p {
+    font-size: 15px;
+  }
+
+  main section .d2c_contact_form .d2c_contact_details .d2c_contact_time h3 {
+    font-size: 18px;
+  }
+
+  main
+    section
+    .d2c_contact_form
+    .d2c_contact_details
+    .d2c_contact_time
+    .d2c_time_details
+    h3 {
+    font-size: 17px;
+  }
+
+  main section .d2c_full_address .card h2 {
+    font-size: 22px;
+  }
+  main section .d2c_full_address .card a p {
+    font-size: 14px;
+  }
+  main .d2c_content_body {
+    padding: 50px 15px 0px 15px;
+  }
+  main section:last-child {
+    padding-bottom: 0px;
+  }
+  main section .d2c_contact_form .form .form-control {
+    margin-bottom: 30px;
+  }
+
+  /* ======================== Contact css responsive end ============================= */
+
+  /* ======================== gallery page css responsive start ============================= */
+
+  .d2c_gallery_main {
+    padding: 50px 0px 50px 0px;
+  }
+  .d2c_gallery_main .d2c_specials_header {
+    width: 90%;
+    text-align: justify;
+  }
+  .d2c_gallery_main .d2c_specials_header p {
+    margin-bottom: 0px;
+  }
+  .d2c_gallery_main .d2c_gallery_column {
+    padding-top: 10px;
+  }
+  .d2c_gallery_main #d2c_gallery_loadMore {
+    padding: 5px 25px !important;
+  }
+
+  /* ======================== gallery page css responsive end ============================= */
+
+  /* ======================== FAQ page css responsive start ============================= */
+
+  .d2c_faq_main {
+    padding: 50px 10px 50px 10px !important;
+  }
+  .d2c_faq_main .d2c_specials_header {
+    width: 96%;
+  }
+  .d2c_faq_main .d2c_specials_header p {
+    text-align: justify;
+  }
+  .d2c_faq_main .d2c_faq_question_wrapper {
+    padding: 0px;
+  }
+  .d2c_faq_main
+    .d2c_faq_question_wrapper
+    .addui-Accordion
+    .addui-Accordion-header {
+    padding-top: 10px;
+  }
+  .d2c_faq_main
+    .d2c_faq_question_wrapper
+    .addui-Accordion
+    .addui-Accordion-header
+    h2 {
+    padding-right: 32px;
+    font-size: 20px !important;
+    margin-bottom: 0px;
+  }
+
+  /* ======================== FAQ page css responsive end ============================= */
+
+  /* ======================== terms and condition page responsive css start ============================= */
+
+  .d2c_terms_condition {
+    padding: 100px 0px 50px 0px;
+  }
+  .d2c_terms_condition .d2c_terms_heading {
+    font-size: 27px;
+  }
+  .d2c_terms_condition h1 {
+    font-size: 24px;
+  }
+  /* ======================== terms and condition page responsive css end ============================= */
+
+  /* ======================== privacy and policy page responsive css start ============================= */
+
+  .d2c_privacy_policy_main {
+    padding: 100px 0px 50px 0px;
+  }
+  .d2c_privacy_policy_main .d2c_privacy_policy_content h1 {
+    font-size: 30px;
+  }
+  .d2c_privacy_policy_main .d2c_privacy_policy_content h2 {
+    font-size: 24px;
+  }
+  /* ======================== privacy and policy responsive css end ============================= */
+
+  /* ======================== services responsive css start ============================= */
+
+  .d2c_services_main {
+    padding: 50px 0px;
+  }
+  .d2c_services_main .d2c_services_header_paragraph {
+    width: 95%;
+  }
+  .d2c_services_main .d2c_services_header_paragraph p {
+    text-align: justify;
+  }
+  .d2c_services_main .d2c_services_column {
+    margin: 10px 0px;
+  }
+  .d2c_services_main .d2c_background_column::before {
+    display: none;
+  }
+  .d2c_services_main .d2c_services_content .d2c_services_img_wrapper {
+    height: 320px;
+  }
+  .d2c_services_main .d2c_services_content h1 {
+    font-size: 24px;
+  }
+  .d2c_services_main .d2c_services_content h2 {
+    font-size: 24px;
+  }
+  .d2c_services_main .d2c_services_content h4 {
+    line-height: 27px;
+    font-size: 18px;
+  }
+  .d2c_services_main .d2c_background_column {
+    display: initial !important;
+  }
+
+  /* ======================== services responsive css end ============================= */
+
+  /* ======================== tag responsive responsive css start ============================= */
+
+  main #d2c_tags_banner:nth-child(1) {
+    padding-bottom: 50px;
+  }
+  main section .d2c_tags_archive .card .d2c_tag_wrapper .card-body {
+    bottom: 0px;
+  }
+  main section .d2c_tags_archive .d2c_loadmore #d2c_tags_loadMore {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 5px 25px !important;
+  }
+  /* ======================== tag responsive responsive css end ============================= */
+
+  /* ======================== author responsive css end ============================= */
+
+  main section .d2c_authors_archive .d2c_loadmore #d2c_authors_loadMore {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 5px 25px !important;
+  }
+
+  main section .d2c_authors_archive .card .d2c_author_wrapper .card-body {
+    bottom: 0px;
+  }
+
+  /* ======================== author responsive css end ============================= */
+
+  /* ======================== 404 page css responsive start ============================= */
+
+  main section .d2c_error .d2c_error_code {
+    font-size: 115px;
+  }
+
+  /* ======================== 404 page css responsive end ============================= */
+
+
+  /* ======================== forgot page css responsive start ============================= */
+
+  .d2c_main{
+    height: auto;
+    padding: 80px 0px;
+    margin-top: 70px;
+  }
+  .d2c_main .d2c_wrapper {
+    padding: 30px 0px;
+  }
+  .d2c_main .d2c_wrapper .d2c_left {
+    display: none;
+  }
+  .d2c_main .d2c_wrapper .d2c_right h2 {
+    font-size: 25px;
+  }
+
+  /* ======================== forgot page css responsive end ============================= */
+
+  /* ======================== login page css responsive start ============================= */
+
+  .d2c_main .d2c_wrapper {
+    padding: 30px 10px;
+  }
+  .d2c_main .d2c_wrapper .d2c_left {
+    display: none;
+  }
+
+  /* ======================== login page css responsive end ============================= */
+
+  /* ======================== registration page css responsive start ============================= */
+
+  .d2c_main .d2c_wrapper {
+    padding: 30px 10px;
+    margin-top: 0px;
+  }
+  .d2c_main .d2c_wrapper .d2c_left {
+    display: none;
+  }
+  .d2c_main .d2c_wrapper .d2c_right{
+    padding: 30px 15px;
+  }
+
+  /* ======================== registration page css responsive end ============================= */
+
+  /* scroll bottom to top css */
+  #scrollToTopBtn {
+    bottom: 17px;
+    right: 15px;
+  }
+}
+
+/* footer section start */
+.d2c_footer {
+  text-align: left !important;
+}
+.d2c_footer ul li {
+  margin: 5px 0px;
+  display: inline-block;
+}
+.d2c_footer ul li a {
+  padding: 0px 7px 0px 0px;
+  font-size: 14px;
+}
+.d2c_footer .d2c_sub_footer p {
+  order: 1;
+}
+.d2c_footer .d2c_sub_footer .d2c_sub_footer_middle {
+  order: 2;
+}
+/* footer section end */
+
+/* *************************************************************************** */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* nav section start */
+
+    header .navbar {
+      position: absolute !important;
+      width: 100%;
+      top: 0px;
+      left: 0px;
+      z-index: 999;
+      background: var(--light-color);
+    }
+    header .navbar .navbar-toggler:focus {
+      outline: none;
+    }
+    header .navbar .navbar-nav li:first-child {
+      margin-top: 15px;
+    }
+    header .navbar .navbar-nav li {
+      width: 100%;
+      background: #f3f3f3;
+      margin: 3px 0px;
+      padding: 0px;
+    }
+    header .navbar .navbar-nav li .d2c_primary_button {
+      width: 100%;
+    }
+    header .navbar .navbar-nav li:last-child {
+      background-color: transparent;
+    }
+  
+    header .navbar .nav-item .dropdown-menu {
+      padding: 15px;
+    }
+  
+    header .navbar .nav-link{
+      padding-left: 15px;
+      font-size: 14px;
+    }
+    header .navbar .nav-item .dropdown-menu a{
+      padding: 0px;
+    }
+  
+    /* nav section end */
+
+  /* ====== Global banner responsive css */
+  main section .d2c_banner_area .d2c_banner_title .d2c_title {
+    font-size: 50px;
+  }
+  main section .d2c_banner_area {
+    padding: 70px 0px;
+  }
+  main section .d2c_banner_area {
+    margin-top: 70px;
+  }
+  /* ======== global title left image  */
+
+  main section .d2c_section_title .d2c_title {
+    font-size: 30px;
+    text-align: center;
+  }
+  /* ======================== home page css responsive start ============================= */
+
+  .d2c_hero_banner_wrapper {
+    margin-top: 70px;
+  }
+
+  .d2c_home_section_header .d2c_section_paragraph {
+    width: 92%;
+  }
+  /* banner section start */
+  .d2c_hero_banner {
+    height: 60vh;
+    margin-top: 0px;
+  }
+  .d2c_hero_banner .d2c_hero_banner_content h1 {
+    font-size: 45px;
+    line-height: 60px;
+    margin-bottom: 25px;
+  }
+
+  /* banner section end */
+
+  /* services section start */
+  .d2c_home_services_main {
+    padding: 30px 0px 70px 0px;
+  }
+  .d2c_home_services_main .d2c_services_wrapper .d2c_services_column {
+    padding-top: 65px;
+  }
+  .d2c_home_services_main .d2c_services_wrapper .d2c_middle_column {
+    display: none !important;
+  }
+  .d2c_home_services_main .d2c_read_more {
+    padding: 7px 30px 8px 30px !important;
+  }
+  /* services section end */
+
+  /* about us section start */
+  .d2c_about_us {
+    padding: 70px 0px;
+  }
+  .d2c_about_us .d2c_about_content .d2c_about_left {
+    margin-top: 20px;
+  }
+  .d2c_about_us .d2c_about_content .d2c_about_right {
+    padding: 10px;
+  }
+  .d2c_about_us .d2c_about_content .d2c_about_right h4 {
+    font-size: 25px;
+    margin: 10px 0px 15px 0px;
+  }
+  .d2c_about_us .d2c_about_content .d2c_about_right h3 {
+    font-size: 20px;
+  }
+  .d2c_about_us .d2c_about_content {
+    margin-top: 60px;
+  }
+  .d2c_about_us .d2c_about_content .d2c_about_right h1 {
+    font-size: 24px;
+    line-height: 20px;
+  }
+  .d2c_about_us .d2c_about_content .d2c_about_right .d2c_read_more {
+    padding: 7px 30px 8px 30px !important;
+  }
+
+  /* about us section end */
+
+  /* offer section start */
+
+  .d2c_offer {
+    margin-top: 0px;
+  }
+
+  /* offer section end */
+
+  /* packages section start */
+
+  .d2c_packages_main {
+    padding: 70px 0px;
+  }
+  .d2c_packages_main .d2c_read_more {
+    padding: 7px 30px 8px 30px !important;
+  }
+
+  /* packages section end */
+
+  /* home blog section start */
+
+  .d2c_home_blog {
+    padding-top: 70px;
+    margin-bottom: 70px;
+  }
+  main section .d2c_home_blog {
+    padding-bottom: 0px;
+  }
+  .d2c_home_blog .d2c_home_section_header .d2c_home_sub_heading {
+    margin-top: 0px;
+  }
+  .d2c_home_blog .d2c_home_section_header {
+    margin-bottom: 30px;
+  }
+  .d2c_home_blog .btn.d2c_primary_button {
+    padding: 7px 30px 8px 30px !important;
+  }
+
+  /* home blog section end */
+
+  /* testimonial section start */
+
+  .d2c_testimonial {
+    padding: 70px 0px;
+  }
+  .d2c_testimonial .d2c_testimonial_content {
+    margin-top: 50px;
+  }
+
+  /* testimonial seciton end */
+
+  /* newsletter section start */
+
+  .d2c_newsletter {
+    padding: 70px 0px;
+  }
+  .d2c_newsletter input[type="email"] {
+    width: 80%;
+  }
+  .d2c_newsletter .btn {
+    padding: 7px 30px 8px 30px !important;
+  }
+
+  /* newsletter section end */
+
+  /* ======================== home page css responsive end ============================= */
+
+  /* ======================== about page css responsive start ============================= */
+
+  /* specials section start */
+  .d2c_specials {
+    padding: 70px 0px;
+  }
+  .d2c_specials .d2c_specials_header {
+    width: 90%;
+  }
+  .d2c_specials .d2c_about_img_wrapper {
+    width: 100%;
+    height: auto;
+  }
+  .d2c_specials .d2c_specials_right .d2c_specials_sub_title {
+    font-size: 30px;
+  }
+  .d2c_specials .d2c_specials_right h3 {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .d2c_specials .d2c_specials_right h3 img {
+    width: 25px;
+  }
+  .d2c_specials .d2c_specials_left {
+    display: flex;
+    align-items: center;
+  }
+  /* specials section ends */
+
+  /* call to action section start */
+
+  .d2c_call_to_action {
+    padding: 70px 0px;
+  }
+  .d2c_call_to_action .d2c_action_content h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .d2c_call_to_action .d2c_action_content .d2c_quote_btn {
+    padding: 7px 30px 8px 30px !important;
+  }
+
+  /* call to action section end */
+
+  /* choose us section start */
+  .d2c_choose_us {
+    padding: 70px 0px;
+  }
+  .d2c_choose_us .d2c_choose_us_content h2 {
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .d2c_choose_us .d2c_section_title .d2c_title {
+    margin-bottom: 50px;
+  }
+  /* choose us section end */
+
+  /* team section start */
+  .d2c_team_section {
+    padding: 0px 0px 70px 0px;
+  }
+  .d2c_team_section .owl-stage-outer {
+    padding-bottom: 0px;
+  }
+
+  /* team section end */
+
+  /* ======================== about page css responsive end ============================= */
+
+  /* ======================== Blog css responsive start ============================= */
+
+  main section .d2c_section_title p {
+    font-size: 16px;
+  }
+  main section .d2c_blog_post .card .card-body .card-title {
+    font-size: 18px;
+  }
+  main section .d2c_blog_post .card .card-body .card-text {
+    font-size: 14px;
+  }
+  main section .d2c_blog_page_title {
+    padding-top: 70px;
+  }
+  main section .d2c_blog_post .card .card-body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  main section .d2c_blog_post .card .d2c_primary_button {
+    padding: 7px 30px 8px 30px !important;
+  }
+  main section .d2c_blog_post {
+    padding-bottom: 70px;
+  }
+
+  /* ======================== Blog css responsive end ============================= */
+
+  /* ======================== snigle Blog css responsive start ============================= */
+
+  main section .d2c_single_page_section {
+    padding: 70px 0px;
+  }
+  .d2c_single_page_section .d2c_right_post_content {
+    margin-bottom: 0px;
+  }
+  .d2c_single_page_section hr {
+    margin: 20px 0px !important;
+  }
+  .d2c_single_page_section .d2c_related_post_area {
+    margin-bottom: 70px;
+  }
+  .d2c_single_page_section
+    .d2c_comment_section
+    .d2c_panel
+    .d2c_panel-body
+    .d2c_load_more_btn {
+    margin-top: 35px;
+  }
+
+  /* ======================== snigle Blog css responsive end ============================= */
+
+  /* ======================== gallery page css responsive start ============================= */
+
+  .d2c_gallery_main {
+    padding: 70px 0px;
+  }
+  .d2c_gallery_main .d2c_specials_header {
+    width: 93%;
+  }
+  .d2c_gallery_main .d2c_section_title {
+    margin-bottom: 20px !important;
+  }
+  .d2c_gallery_main #d2c_gallery_loadMore {
+    padding: 7px 30px 8px 30px !important;
+  }
+
+  /* ======================== gallery page css responsive end ============================= */
+
+  /* ======================== Contact css responsive start ============================= */
+
+  main section .d2c_full_address .card {
+    padding: 15px;
+  }
+  main section .d2c_full_address .card h2 {
+    font-size: 20px;
+  }
+  main section .d2c_full_address .card a p {
+    font-size: 12px;
+  }
+  main .d2c_content_body {
+    padding: 70px 0px 0px 0px;
+  }
+  main section .d2c_contact_form .d2c_contact_details .d2c_title {
+    font-size: 24px;
+  }
+  .d2c_address_main {
+    padding-bottom: 70px !important;
+  }
+
+  /* ======================== Contact css responsive end ============================= */
+
+  /* ======================== FAQ css responsive start ============================= */
+
+  .d2c_faq_main {
+    padding: 70px 0px;
+  }
+  .d2c_faq_main
+    .d2c_faq_question_wrapper
+    .addui-Accordion
+    .addui-Accordion-header
+    h2 {
+    padding-right: 30px;
+    font-size: 20px;
+  }
+  .d2c_faq_main .d2c_faq_question_wrapper {
+    padding: 0px;
+  }
+  /* ======================== FAQ css responsive end ============================= */
+
+  /* ======================== tag css responsive start ============================= */
+
+  #d2c_tags_banner {
+    padding-bottom: 70px !important;
+  }
+  .d2c_tags_body {
+    padding-bottom: 70px !important;
+  }
+  main section .d2c_tags_archive .d2c_loadmore #d2c_tags_loadMore {
+    margin-top: 50px !important;
+    padding: 7px 30px 8px 30px !important;
+  }
+
+  /* ======================== tag css responsive end ============================= */
+
+  /* ======================== terms and condition page responsive css start ============================= */
+
+  .d2c_terms_condition {
+    padding: 120px 0px 70px 0px;
+  }
+  /* ======================== terms and condition page responsive css end ============================= */
+
+  /* ======================== privacy and policy page responsive css start ============================= */
+
+  .d2c_privacy_policy_main {
+    padding: 120px 0px 70px 0px;
+  }
+  .d2c_privacy_policy_main .d2c_privacy_policy_content h2 {
+    font-size: 24px;
+  }
+  /* ======================== privacy and policy responsive css end ============================= */
+
+  /* ======================== Services page css responsive css start ============================= */
+
+  .d2c_services_main {
+    padding: 70px 0px;
+  }
+
+  .d2c_services_main .d2c_background_column::before {
+    top: 35px;
+    padding: 90px 195px;
+    left: -20px;
+  }
+  .d2c_services_main .d2c_services_header_paragraph {
+    width: 90%;
+  }
+  .d2c_services_main .d2c_services_column {
+    margin: 30px 0px;
+  }
+  .d2c_services_main.d2c_background_responsive {
+    position: relative;
+  }
+  .d2c_services_main .d2c_background_responsive::before {
+    top: 75px !important;
+  }
+  .d2c_services_main .d2c_background_responsive_1::before {
+    top: 10px !important;
+  }
+  .d2c_services_main .d2c_background_responsive_2::before {
+    top: 0px !important;
+  }
+  .d2c_services_main .d2c_services_content h1 {
+    font-size: 23px;
+    line-height: 27px;
+  }
+  .d2c_services_main .d2c_services_content p {
+    font-size: 16px;
+  }
+  .d2c_services_main .d2c_services_content h2 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .d2c_services_main .d2c_services_content h4 {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  /* ======================== Services page css responsive css end ============================= */
+
+  /* ======================== author page css responsive css start ============================= */
+
+  main section .d2c_author_title {
+    font-size: 29px !important;
+  }
+  main section .d2c_authors_archive {
+    margin-top: 50px;
+  }
+  main section .d2c_authors_archive .d2c_primary_button {
+    margin-top: 50px !important;
+  }
+  main section .d2c_authors_archive .card .d2c_author_wrapper .card-body {
+    bottom: 0px;
+  }
+  main section .d2c_blog_post .d2c_loadmore #d2c_post_loadMore{
+    margin-top: 50px;
+  }
+
+  /* ======================== author page responsive css end ============================= */
+
+  /* ======================== forgot page responsive css start ============================= */
+
+  .d2c_main .d2c_wrapper {
+    padding: 65px;
+  }
+  .d2c_main .d2c_wrapper .d2c_right {
+    padding: 0px;
+  }
+  .d2c_main .d2c_wrapper .d2c_right h2 {
+    font-size: 24px;
+  }
+  .d2c_forgot_main {
+    margin-top: 0px;
+  }
+
+  /* ======================== forgot page responsive css end ============================= */
+
+  /* ======================== login page responsive css start ============================= */
+
+  .d2c_main .d2c_wrapper .d2c_left img {
+    padding: 5px;
+  }
+  .d2c_main .d2c_wrapper {
+    padding: 50px;
+  }
+  .d2c_login_main {
+    margin-top: 0px;
+  }
+
+  /* ======================== login page responsive css end ============================= */
+
+  /* ======================== registration page responsive css start ============================= */
+
+  .d2c_main {
+    margin-top: 70px;
+    height: auto;
+    padding: 100px 0px;
+  }
+  .d2c_main .d2c_wrapper .d2c_left img {
+    padding: 5px;
+  }
+  .d2c_main .d2c_wrapper {
+    padding: 50px;
+    margin-top: 0px;
+  }
+
+  /* ======================== registration page responsive css end ============================= */
+
+  /* footer section start */
+  .d2c_footer .d2c_sub_footer .d2c_sub_footer_middle p {
+    font-size: 11px;
+  }
+  /* footer section end */
+}
+
+/* *************************************************************************** */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* global banner area start */
+
+  main section .d2c_banner_area {
+    padding: 100px 0px;
+  }
+
+  /* global banner area end */
+
+  /* ======================== home page css responsive start ============================= */
+
+  main section .d2c_section_title .d2c_title {
+    font-size: 42px;
+  }
+  .d2c_hero_banner {
+    height: 50vh;
+  }
+  .d2c_hero_banner_wrapper.owl-carousel .owl-nav button.owl-prev {
+    left: 5%;
+  }
+  .d2c_hero_banner_wrapper.owl-carousel .owl-nav button.owl-next {
+    right: 5%;
+  }
+  .d2c_hero_banner .d2c_hero_banner_content h1 {
+    font-size: 50px;
+  }
+  main section .d2c_blog_post {
+    margin-bottom: 0px !important;
+  }
+  .d2c_testimonial .d2c_testimonial_content {
+    margin-top: 50px;
+  }
+
+  /* ======================== home page css responsive end ============================= */
+
+  /* ======================== about page css responsive start ============================= */
+  .d2c_team_section {
+    padding: 20px 0px 50px 0px;
+  }
+  .d2c_specials .d2c_about_img_wrapper {
+    width: 100%;
+    height: auto;
+  }
+  .d2c_specials .d2c_specials_left {
+    display: flex;
+    align-items: center;
+  }
+  .d2c_team_section .owl-carousel .owl-next span {
+    right: -42px;
+  }
+  .d2c_team_section .owl-carousel .owl-prev span {
+    left: -42px;
+  }
+
+  /* ======================== about page css responsive end ============================= */
+
+  /* ======================== services page css responsive start ============================= */
+  .d2c_services_main.d2c_background_responsive {
+    position: relative;
+  }
+  .d2c_services_main .d2c_background_column::before {
+    top: 27px;
+    padding: 115px 250px;
+    left: -22px;
+  }
+  .d2c_services_main .d2c_background_responsive::before {
+    top: 50px !important;
+    left: -10px !important;
+  }
+  .d2c_services_main .d2c_background_responsive_1::before {
+    top: -25px !important;
+  }
+  .d2c_services_main .d2c_background_responsive_2::before {
+    top: -5px !important;
+  }
+  /* ======================== services page css responsive end ============================= */
+
+  /* ======================== Tags css responsive end ============================= */
+
+  main section .d2c_tags_archive .card .d2c_tag_wrapper .card-body .card-title {
+    font-size: 18px;
+  }
+  main section .d2c_tags_archive .card .d2c_tag_wrapper .card-body .card-text {
+    font-size: 14px;
+  }
+
+  /* ======================== Tags css responsive end ============================= */
+
+  /* ======================== Authors css responsive end ============================= */
+
+  main
+    section
+    .d2c_authors_archive
+    .card
+    .d2c_author_wrapper
+    .card-body
+    .card-title {
+    font-size: 18px;
+  }
+  main
+    section
+    .d2c_authors_archive
+    .card
+    .d2c_author_wrapper
+    .card-body
+    .card-text {
+    font-size: 14px;
+  }
+
+  /* ======================== Authors css responsive end ============================= */
+
+  /* ======================== faq css responsive start ============================= */
+
+  .d2c_faq_main .d2c_faq_question_wrapper {
+    padding: 0px;
+  }
+  .d2c_faq_main
+    .d2c_faq_question_wrapper
+    .addui-Accordion
+    .addui-Accordion-header
+    h2 {
+    font-size: 22px;
+  }
+
+  /* ======================== faq css responsive end ============================= */
+}

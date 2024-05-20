@@ -1,0 +1,122 @@
+/* 
+	======================== ***** ============================= 
+	Template Name: Cleanifer
+	Template URI: https://www.designtocodes.com/product/cleanifer-cleaning-service-bootstrap-template/
+	Description: This is the cleaning service template.
+	Version: 1.1.0
+	Author: designtocodes
+	Author URI: https://www.designtocodes.com
+	Text Domain: Cleanifer
+*/
+/*=============== forgot css start ===============*/
+
+.d2c_main {
+  background: rgb(144 255 0 / 10%);
+  height: 90vh;
+  margin-top: 100px;
+}
+
+.d2c_main .d2c_wrapper {
+  background: var(--light-color);
+  padding: 100px;
+  border-radius: 10px;
+  border: 5px solid #3f3d560d;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.d2c_main .d2c_wrapper .d2c_left img {
+  padding: 15px;
+}
+
+/*=============== right part css start ===============*/
+.d2c_main .d2c_wrapper .d2c_right {
+  width: 100%;
+  padding: 30px;
+}
+.d2c_main .d2c_wrapper .d2c_right .d2c_icon::placeholder {
+  font-family: FontAwesome;
+  color: var(--secondary-color);
+  opacity: 0.6;
+}
+.d2c_main .d2c_wrapper .d2c_right h2 {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  color: var(--secondary-color);
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.d2c_main .d2c_wrapper .d2c_right h2 span {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.d2c_main .d2c_wrapper .d2c_right input[type="email"] {
+  width: 100%;
+  font-family: var(--primary-font);
+  padding: 14px 15px 15px 15px;
+  border-radius: 10px;
+  border: none;
+  background: var(--light-color);
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 5%);
+}
+.d2c_main .d2c_wrapper .d2c_right input[type="email"]:focus {
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+  outline: none;
+}
+
+.d2c_main .d2c_wrapper .d2c_right .btn {
+  background: var(--primary-color);
+  color: var(--light-color);
+  font-family: var(--primary-font);
+  width: 100%;
+  text-transform: uppercase;
+  padding: 9px 9px 8px 9px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_main .d2c_wrapper .d2c_right .btn:hover {
+  background: var(--secondary-color);
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_main .d2c_wrapper .d2c_right .btn:focus {
+  box-shadow: none;
+}
+.d2c_main .d2c_wrapper .d2c_right .d2c_para {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 14px;
+}
+.d2c_main .d2c_wrapper .d2c_right .d2c_para a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_main .d2c_wrapper .d2c_right .d2c_para a:hover {
+  color: var(--primary-color);
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+
+/*=============== forgot css end ===============*/

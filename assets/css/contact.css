@@ -1,0 +1,271 @@
+/* 
+	======================== ***** ============================= 
+	Template Name: Cleanifer
+	Template URI: https://www.designtocodes.com/product/cleanifer-cleaning-service-bootstrap-template/
+	Description: This is the cleaning service template.
+	Version: 1.1.0
+	Author: designtocodes
+	Author URI: https://www.designtocodes.com
+	Text Domain: Cleanifer
+*/
+main .d2c_content_body {
+  background-image: url("../images/contact_bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+}
+
+main section .d2c_contact_form .d2c_contact_details .d2c_title {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 34px;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  position: relative;
+  margin-bottom: 25px;
+}
+
+main section .d2c_contact_form .d2c_contact_details .d2c_title:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 80px;
+  height: 5px;
+  background-image: url("../images/title-bottom.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+main section .d2c_contact_form .d2c_contact_details p {
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+
+main section .d2c_contact_form .d2c_contact_details .d2c_contact_time h3 {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+
+main
+  section
+  .d2c_contact_form
+  .d2c_contact_details
+  .d2c_contact_time
+  .d2c_time_details {
+  margin-bottom: 20px;
+}
+
+main
+  section
+  .d2c_contact_form
+  .d2c_contact_details
+  .d2c_contact_time
+  .d2c_time_details
+  h3 {
+  font-family: var(--secondary-color);
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+
+main
+  section
+  .d2c_contact_form
+  .d2c_contact_details
+  .d2c_contact_time
+  .d2c_time_details
+  h3:last-child {
+  font-weight: 400;
+}
+
+main
+  section
+  .d2c_contact_form
+  .d2c_contact_details
+  .d2c_contact_time
+  .d2c_social_icon
+  a {
+  text-decoration: none;
+  margin: 0px 3px;
+}
+
+main
+  section
+  .d2c_contact_form
+  .d2c_contact_details
+  .d2c_contact_time
+  .d2c_social_icon
+  span {
+  background: var(--secondary-color);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
+  width: 25px;
+  display: inline-flex;
+  height: 25px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+main
+  section
+  .d2c_contact_form
+  .d2c_contact_details
+  .d2c_contact_time
+  .d2c_social_icon
+  span:hover {
+  background: var(--light-color);
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+main
+  section
+  .d2c_contact_form
+  .d2c_contact_details
+  .d2c_contact_time
+  .d2c_social_icon
+  span
+  i {
+  color: var(--light-color);
+  font-size: 13px;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+main
+  section
+  .d2c_contact_form
+  .d2c_contact_details
+  .d2c_contact_time
+  .d2c_social_icon
+  span:hover
+  i {
+  color: var(--secondary-color);
+  font-size: 13px;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+
+main section .d2c_contact_form .form .form-control {
+  background: var(--light-color);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: none;
+  padding: 15px 10px 16px 10px;
+  height: auto;
+  margin-bottom: 10px;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+main section .d2c_contact_form input:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px rgb(144 255 0 / 10%) inset !important;
+}
+
+main section .d2c_contact_form .form .form-control::placeholder {
+  opacity: 0.45;
+}
+
+main section:last-child {
+  padding-bottom: 100px;
+}
+
+main section .d2c_full_address .card {
+  border: none;
+  background: var(--light-color);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 30px;
+}
+
+main section .d2c_full_address .card h2 {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  position: relative;
+  margin-bottom: 30px;
+}
+
+main section .d2c_full_address .card h2:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 80px;
+  height: 5px;
+  background-image: url("../images/title-bottom.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+main section .d2c_full_address .card a {
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+main section .d2c_full_address .card a:last-child {
+  margin-bottom: 0;
+}
+
+main section .d2c_full_address .card a span {
+  background: var(--primary-color);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
+  width: 25px;
+  display: inline-flex;
+  height: 25px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+main section .d2c_full_address .card a span i {
+  color: var(--light-color);
+  font-size: 13px;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+
+main section .d2c_full_address .card a p {
+  margin-bottom: 0;
+  font-family: var(--secondary-font);
+  font-size: 15px;
+  text-transform: lowercase;
+  color: var(--secondary-color);
+}
+
+.d2c_full_address .d2c_address_icon {
+  margin-right: 5px;
+}

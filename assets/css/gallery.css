@@ -1,0 +1,128 @@
+/* 
+	======================== ***** ============================= 
+	Template Name: Cleanifer
+	Template URI: https://www.designtocodes.com/product/cleanifer-cleaning-service-bootstrap-template/
+	Description: This is the cleaning service template.
+	Version: 1.1.0
+	Author: designtocodes
+	Author URI: https://www.designtocodes.com
+	Text Domain: Cleanifer
+*/
+/* gallery section start */
+.d2c_gallery_main {
+  padding: 100px 0px;
+}
+.d2c_gallery_main .d2c_specials_header {
+  width: 62%;
+  text-align: center;
+  margin: 15px auto 0px auto;
+}
+.d2c_gallery_main .d2c_specials_header p {
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.d2c_gallery_main .d2c_gallery_column {
+  padding-top: 30px;
+  display: none;
+}
+.d2c_gallery_main .d2c_gallery_column .d2c_gallery_content_wrapper {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0px 0px 30px rgb(0 0 0 / 5%);
+}
+.d2c_gallery_main
+  .d2c_gallery_column
+  .d2c_gallery_content_wrapper
+  .d2c_gallery_img_wrapper {
+  width: 100%;
+  height: 330px;
+  overflow: hidden;
+}
+.d2c_gallery_main
+  .d2c_gallery_column
+  .d2c_gallery_content_wrapper
+  .d2c_gallery_img_wrapper
+  .d2c_first_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.d2c_gallery_main
+  .d2c_gallery_column
+  .d2c_gallery_content_wrapper
+  .d2c_gallery_img_wrapper
+  .d2c_hover_gallery {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: -99%;
+  z-index: 10;
+  transition: 1.5s all ease;
+  -webkit-transition: 1.5s all ease;
+  -moz-transition: 1.5s all ease;
+  -ms-transition: 1.5s all ease;
+  -o-transition: 1.5s all ease;
+}
+.d2c_gallery_main
+  .d2c_gallery_column
+  .d2c_gallery_content_wrapper
+  .d2c_gallery_img_wrapper:hover
+  .d2c_hover_gallery {
+  left: 0px;
+  transition: 1.5s all ease;
+  -webkit-transition: 1.5s all ease;
+  -moz-transition: 1.5s all ease;
+  -ms-transition: 1.5s all ease;
+  -o-transition: 1.5s all ease;
+}
+.d2c_gallery_main
+  .d2c_gallery_column
+  .d2c_gallery_content_wrapper
+  .d2c_gallery_img_wrapper
+  .d2c_hover_gallery
+  img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-right: 5px solid var(--primary-color);
+}
+.d2c_gallery_main #d2c_gallery_loadMore {
+  margin: 70px auto 0px auto;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  border-radius: 100px;
+  padding: 13px 35px 13px 35px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_gallery_main #d2c_gallery_loadMore:hover {
+  background: var(--primary-color);
+  color: var(--light-color);
+}
+
+/* gallery section end */

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Login page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Cleanifer is a clean, professional, and fully responsive Bootstrap Template suitable for any kind of cleaning service or business.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Cleanifer - Cleaning Service Bootstrap Template" />
+  <meta property="og:description" content="Cleanifer is a clean, professional, and fully responsive Bootstrap Template suitable for any kind of cleaning service or business." />
+  <meta property="og:image" content="https://www.designtocodes.com/wp-content/uploads/2022/02/Cleanifer-Thumb.jpg" />
+
+  <!-- favicon icon -->
+  <link rel="icon" href="../assets/images/favicon.png" type="image/gif" sizes="16x16">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome CDN -->
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <!-- animation link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- wow animation local link -->
+  <link rel="stylesheet" href="../lib/WOW-master/animate.css">
+  <!-- main css file link -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <!-- login page css file link -->
+  <link rel="stylesheet" href="../assets/css/login.css">
+  <!-- Responsive css file link -->
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+
+</head>
+
+<body>
+
+  <!-- preloader -->
+   <div id="preloder">
+    <img loading="lazy" src="../assets/images/logo.png" alt="logo" class="mr-3">
+    <i class="fa fa-2x fa-spinner fa-pulse"></i>
+  </div>
+  <!-- preloader -->
+
+  <!-- Header Start -->
+  <header class="position-fixed">
+
+    <!-- Top Sub Nav -->
+    <nav class="top-navbar d-none d-lg-block">
+      <div class="container">
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item"><img loading="lazy" src="../assets/images/time-icon.png" alt="clock">10:00am -
+            10:00pm Mon - Sun</li>
+          <li class="list-group-item ml-auto"><img loading="lazy" src="../assets/images/phone-icon.png" alt="call"><a
+              href="tel:(406)555-0120">(406) 555-0120</a></li>
+          <li class="list-group-item"><img loading="lazy" src="../assets/images/mail-icon.png" alt="mail"><a
+              href="mailto:Support@cleanifer.com">Support@cleanifer.com</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand" href="../index.html"><img loading="lazy" src="../assets/images/logo.png" alt="logo"
+            class="w-100"></a>
+
+        <!-- Burger Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Nav Button/ Nav Item -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav align-items-start align-items-md-center  ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/services.html">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/blog.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/gallery.html">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/faq.html">Faq</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">Pages</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="../pages/404.html">404</a>
+                <a class="dropdown-item" href="../pages/tags.html">Tags</a>
+                <a class="dropdown-item" href="../pages/authors.html">Authors</a>
+                <a class="dropdown-item" href="../pages/login.html">Login</a>
+                <a class="dropdown-item" href="../pages/registration.html">Registration</a>
+                <a class="dropdown-item" href="../pages/forgot.html">Forgot Password</a>
+              </div>
+            </li>
+
+            <li class="nav-item ml-md-3 mb-3 mb-lg-0">
+              <a href="../pages/contact.html" class="btn d2c_primary_button">Contact Us</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Header End -->
+
+
+  <div class="d2c_main d2c_login_main d-flex align-items-center justify-content-center">
+    <div class="container">
+      <div class="d2c_wrapper">
+        <div class="row">
+          <div class="col-md-6 d-md-none d-lg-block d-flex align-items-center justify-content-center">
+            <div class="d2c_left wow fadeInLeft" data-wow-duration="2s">
+              <div>
+                <img loading="lazy" src="../assets/images/login_img.png" alt="login Image">
+              </div>
+            </div>
+          </div>
+          <div class="col-md col-lg-6">
+            <div class="d2c_right wow fadeInRight" data-wow-duration="2s">
+              <h2>Account <span>Login</span></h2>
+              <form action="#" class="needs-validation" novalidate>
+                <div class="form-group mb-0">
+                  <input type="email" class="d2c_icon mb-3" id="email" placeholder="&#9993; Email" required><br>
+                  <div class="invalid-feedback mb-3 mt-0">
+                    Please provide a valid Email.
+                  </div>
+                </div>
+                <div class="form-group mb-0">
+                  <input type="password" class="d2c_icon mb-3" id="pass" placeholder="&#61475; Password" required>
+                  <div class="invalid-feedback mb-2 mt-0">
+                    Incorrect password
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-6 text-left">
+                    <input type="checkbox">
+                    <span class="d2c_remember">Remember Me</span>
+                  </div>
+                  <div class="col-6 text-right">
+                    <p><a href="../pages/forgot.html" class="d2c_forgot">Forgot Password?</a></p>
+                  </div>
+                </div>
+                <div>
+                  <button type="submit" class="btn mb-3">Login</button>
+                </div>
+              </form>
+
+              <div class="text-center">
+                <p class="d2c_sign_up_link">Don't have an account? <a href="../pages/registration.html">Sign up!</a></p>
+                <p class="d2c_para">or Login with</p>
+                <div class="d2c_social_icon">
+                  <a href="#"><span><i class="fa fa-facebook"></i></span></a>
+                  <a href="#"><span><i class="fa fa-twitter"></i></span></a>
+                  <a href="#"><span><i class="fa fa-linkedin"></i></span></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Start -->
+  <footer>
+    <div class="d2c_footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 text-left text-md-center offset-md-1">
+            <div class="d2c_footer_logo">
+              <img loading="lazy" src="../assets/images/footer_logo.png" alt="footer logo">
+            </div>
+            <ul>
+              <li>
+                <a href="../index.html">HOME</a>
+              </li>
+              <li>
+                <a href="../pages/services.html">SERVICES</a>
+              </li>
+              <li>
+                <a href="../pages/about.html">ABOUT</a>
+              </li>
+              <li>
+                <a href="../pages/blog.html">BLOG</a>
+              </li>
+              <li>
+                <a href="../pages/gallery.html">GALLERY</a>
+              </li>
+              <li>
+                <a href="../pages/faq.html">FAQ</a>
+              </li>
+              <li>
+                <a href="../pages/contact.html">CONTACT</a>
+              </li>
+            </ul>
+            <p class="d2c_sub_heading">Look For Us</p>
+            <div class="d2c_footer_icon">
+              <a href="https://www.facebook.com/Designtocodes" target="_blank"><span><i class="fa fa-facebook"></i></span></a>
+              <a href="https://www.linkedin.com/company/designtocodes/" target="_blank"><span><i class="fa fa-linkedin"></i></span></a>
+              <a href="https://www.youtube.com/channel/UCty3RokJyzzUd2f5hhwDocg" target="_blank"><span><i class="fa fa-youtube"></i></span></a>
+              <a href="https://twitter.com/DesignToCodes" target="_blank"><span><i class="fa fa-twitter"></i></span></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- sub footer start -->
+      <div class="d2c_sub_footer">
+        <div class="container">
+          <div class="row ">
+            <div class="col-12 col-md text-left text-md-left mb-1 mb-md-0">
+              <p>Copyright © 2022. All rights reserved <a href="https://www.designtocodes.com" target="_blank">
+                  DesigntoCodes</a></p>
+            </div>
+            <div class="col-12 col-md text-left text-md-right d2c_sub_footer_right">
+              <p>
+                <a href="../pages/terms_condition.html" class="d2c_terms_link pr-2">Terms & Condition</a>
+                <a href="../pages/privacy_policy.html" class="pl-2">Privacy Policy</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sub footer end -->
+    </div>
+  </footer>
+  <!-- Footer Start -->
+
+  <!-- bottom to scroll top -->
+  <div>
+    <div onclick="topFunction()" id="scrollToTopBtn"><a href="#"><i class="fa fa-arrow-up"></i></a></div>
+  </div>
+
+
+  <!-- optional javascript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <!-- owl carousel js link -->
+  <script src="../lib/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+
+  <!-- counter js link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="../lib/Counter-Up-master/jquery.counterup.js"></script>
+
+  <!-- wow animation js file link -->
+  <script src="../lib/WOW-master/wow.min.js"></script>
+
+  <!-- main custom js link -->
+  <script src="../assets/js/main.js"></script>
+
+
+  <!-- 
+      Template Name: Cleanifer - Cleaning Service Bootstrap Template
+      Template URI: https://www.designtocodes.com/product/cleanifer-cleaning-service-bootstrap-template
+      Description: Cleanifer is a clean, professional, and fully responsive Bootstrap Template suitable for any kind of cleaning service or business.
+      Author: designtocodes.com
+      Author URI: https://www.designtocodes.com
+      Text Domain: Cleanifer
+    -->
+
+</body>
+
+</html>

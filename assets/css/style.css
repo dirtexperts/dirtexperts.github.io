@@ -1,0 +1,1216 @@
+/* 
+	======================== ***** ============================= 
+	Template Name: Cleanifer
+	Template URI: https://www.designtocodes.com/product/cleanifer-cleaning-service-bootstrap-template/
+	Description: This is the cleaning service template.
+	Version: 1.1.0
+	Author: designtocodes
+	Author URI: https://www.designtocodes.com
+	Text Domain: Cleanifer
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--primary-color);
+  color: var(--light-color);
+}
+
+:root {
+  /* Global Color */
+  --primary-color: #8cc63f;
+  --secondary-color: #414244;
+  --light-color: #ffffff;
+
+  /* Global Font */
+  --primary-font: "Lato", sans-serif;
+  --secondary-font: "Open Sans", sans-serif;
+}
+
+@media (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1300px;
+  }
+}
+
+/* peloader */
+
+#preloder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #ffffff;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#preloder img {
+  width: 170px;
+}
+li{
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  color: var(--secondary-color);
+}
+
+/* peloader */
+
+/* Global Primary Button */
+.btn.d2c_primary_button {
+  background: var(--primary-color) !important;
+  border: 3px solid var(--primary-color) !important;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  color: var(--light-color);
+  padding: 8px 30px 9px 30px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.btn.d2c_primary_button:hover {
+  background: var(--light-color) !important;
+  color: var(--primary-color) !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.btn.d2c_primary_button:focus {
+  box-shadow: 0px 0px 20px #00000025;
+}
+
+/* Global Secondary Button */
+.btn.d2c_secondary_button {
+  background: var(--primary-color) !important;
+  border: 3px solid var(--primary-color) !important;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  color: var(--light-color);
+  padding: 11px 30px 12px 30px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.btn.d2c_secondary_button:hover {
+  background: var(--secondary-color) !important;
+  border: 3px solid var(--secondary-color) !important;
+  color: var(--light-color) !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.btn.d2c_secondary_button:focus {
+  box-shadow: 0px 0px 20px #00000025;
+}
+
+/* global banner section */
+main section .d2c_banner_area {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 150px 0px;
+  margin-top: 120px;
+}
+
+main section .d2c_banner_area .d2c_banner_title {
+  text-align: center;
+}
+
+main section .d2c_banner_area .d2c_banner_title .d2c_title {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: var(--light-color);
+  margin-bottom: 0;
+}
+
+main section .d2c_banner_area .d2c_banner_title .d2c_title span {
+  color: var(--primary-color);
+}
+
+/*Global Section Title*/
+main section .d2c_section_title {
+  margin-bottom: 50px;
+}
+main section .d2c_section_title .d2c_title {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section .d2c_section_title .d2c_title img {
+  margin-right: 10px;
+}
+
+/**********Header Section Navbar**********/
+/*
+/*======================================================*/
+
+/*Main Navbar*/
+header {
+  z-index: 100 !important;
+}
+header .top-navbar {
+  background-color: var(--secondary-color);
+  padding: 15px 0px;
+}
+header .top-navbar .list-group-horizontal > .list-group-item {
+  padding: 0;
+  border: none;
+  margin-right: 15px;
+  background-color: transparent;
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--light-color);
+}
+header .top-navbar .list-group-horizontal > .list-group-item:last-child {
+  margin-right: 0px;
+}
+
+header .top-navbar .list-group-horizontal > .list-group-item img {
+  margin-right: 7px;
+}
+header .top-navbar .list-group-horizontal > .list-group-item a {
+  color: var(--light-color);
+}
+header {
+  top: 0px;
+  width: 100%;
+  z-index: 99999;
+}
+
+/*Main Navbar*/
+.navbar-brand img{
+  height: 41px;
+  width: 179px !important;
+  object-fit: cover;
+}
+header .navbar {
+  padding: 10px 0px;
+  background: var(--light-color);
+  box-shadow: 0px 0px 35px #00000015;
+}
+header .navbar .nav-link {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--secondary-color) !important;
+  transition: 0.5s;
+}
+
+header .navbar .nav-link:hover {
+  color: var(--primary-color) !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+header .navbar .nav-link:focus {
+  color: var(--primary-color) !important;
+}
+header .navbar ul .active a {
+  color: var(--primary-color) !important;
+}
+
+header .navbar .nav-item .dropdown-menu {
+  margin-top: 14px;
+  background: var(--light-color);
+  border: none;
+  box-shadow: 0px 0px 30px rgb(0 0 0 / 5%);
+  padding-top: 8px;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+header .navbar .nav-item .dropdown-menu a {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 6px 20px;
+  text-transform: capitalize;
+  color: var(--secondary-color) !important;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+header .navbar .nav-item .dropdown-menu a:hover {
+  color: var(--primary-color) !important;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+header .navbar .nav-item .dropdown-menu a:active {
+  color: var(--light-color);
+  background: #f3f3f3;
+}
+
+/* ========================== hero banner section start ============================ */
+
+.d2c_hero_banner {
+  background: linear-gradient(
+      0deg,
+      rgba(65, 66, 68, 0.8),
+      rgba(65, 66, 68, 0.8)
+    ),
+    url(../images/home_hero_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  margin-top: 120px;
+}
+.d2c_hero_banner .d2c_hero_banner_content h1 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--light-color);
+}
+.d2c_hero_banner .d2c_hero_banner_content .d2c_learn_more {
+  background: var(--primary-color) !important;
+  border: 3px solid var(--primary-color) !important;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  color: var(--light-color);
+  padding: 11px 30px 12px 30px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  margin-right: 15px;
+}
+.d2c_hero_banner .d2c_hero_banner_content .d2c_learn_more:hover {
+  background: transparent !important;
+  border-color: var(--light-color) !important;
+}
+.d2c_hero_banner .d2c_hero_banner_content .d2c_contact_us {
+  background: transparent !important;
+  border: 3px solid var(--light-color) !important;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  color: var(--light-color);
+  margin-left: 15px;
+  padding: 11px 30px 12px 30px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.d2c_hero_banner .d2c_hero_banner_content .d2c_contact_us:hover {
+  background: var(--primary-color) !important;
+  color: var(--light-color);
+  border-color: var(--primary-color) !important;
+}
+.d2c_hero_banner_wrapper .owl-carousel {
+  position: relative;
+}
+.d2c_hero_banner_wrapper.owl-carousel .owl-nav button.owl-prev {
+  width: 40px;
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_hero_banner_wrapper.owl-carousel .owl-nav button.owl-prev:hover {
+  background: var(--primary-color);
+  color: var(--light-color) !important;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_hero_banner_wrapper.owl-carousel .owl-nav button.owl-next {
+  width: 40px;
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_hero_banner_wrapper.owl-carousel .owl-nav button.owl-next:hover {
+  background: var(--primary-color);
+  color: var(--light-color) !important;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_hero_banner_wrapper.owl-carousel .owl-nav button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* ========================== hero banner section end ============================ */
+
+/* home page all section header css start */
+.d2c_home_section_header {
+  text-align: center;
+}
+.d2c_home_section_header .d2c_home_sub_heading {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 0px;
+}
+.d2c_home_section_header .d2c_section_paragraph {
+  width: 80%;
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  margin: 25px auto 0px auto;
+  text-transform: initial;
+}
+.d2c_home_section_header .d2c_title_bottom {
+  width: 45px;
+}
+/* home page all section header css end */
+
+/* read more button */
+.d2c_read_more {
+  background: transparent !important;
+  border: 3px solid var(--primary-color) !important;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  color: var(--primary-color) !important;
+  padding: 11px 30px 12px 30px !important;
+  border-radius: 100px !important;
+  -webkit-border-radius: 100px !important;
+  margin-top: 20px;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+  -moz-border-radius: 100px !important;
+  -ms-border-radius: 100px !important;
+  -o-border-radius: 100px !important;
+}
+.d2c_read_more:hover {
+  background: var(--primary-color) !important;
+  color: var(--light-color) !important;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+
+/* ========================== about us section start ============================ */
+.d2c_about_us {
+  padding: 100px 0px;
+}
+.d2c_about_us .d2c_about_content {
+  margin-top: 90px;
+}
+.d2c_about_us .d2c_about_content .d2c_about_left {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0px 0px 30px rgb(0 0 0 / 5%);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.d2c_about_us .d2c_about_content .d2c_about_left img {
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.d2c_about_us .d2c_about_content .d2c_about_right h4 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+.d2c_about_us .d2c_about_content .d2c_about_right p {
+  font-family: var(--primary-font);
+  font-size: 17px;
+  line-height: 23px;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.d2c_about_us .d2c_about_content .d2c_about_right h1 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.d2c_about_us .d2c_about_content .d2c_about_right h3 {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+.d2c_about_us .d2c_about_content .d2c_about_right h3 img {
+  margin-right: 10px;
+  width: 18px;
+  object-fit: cover;
+}
+.d2c_about_us .d2c_about_content .d2c_about_right .d2c_read_more {
+  background: transparent !important;
+  border: 3px solid var(--primary-color) !important;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  color: var(--primary-color);
+  padding: 11px 30px 12px 30px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  margin-top: 20px;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_about_us .d2c_about_content .d2c_about_right .d2c_read_more:hover {
+  background: var(--primary-color) !important;
+  color: var(--light-color) !important;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+
+/* ========================== about us section end ============================ */
+
+/* ========================== services section start ============================ */
+
+.d2c_home_services_main {
+  background-image: url(../images/home_services_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px 50px 0px;
+}
+.d2c_home_services_main .d2c_home_section_header {
+  margin-bottom: 0px;
+}
+.d2c_home_services_main .d2c_services_wrapper .d2c_services_column {
+  padding-top: 100px;
+}
+.d2c_home_services_main .d2c_services_content .d2c_icon_wrapper {
+  margin-bottom: 15px;
+}
+.d2c_home_services_main .d2c_services_content .d2c_icon_wrapper img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.d2c_home_services_main .d2c_services_content h4 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+.d2c_home_services_main .d2c_services_content p {
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.d2c_home_services_main .d2c_read_more {
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+/* ========================== services section end ============================ */
+
+/* ========================== offer section start ============================ */
+
+.d2c_offer {
+  background: linear-gradient(
+      0deg,
+      rgba(66, 66, 68, 0.9),
+      rgba(66, 66, 68, 0.9)
+    ),
+    url(../images/home_offer_bg.jpg);
+  padding: 80px 0px;
+  margin-top: 100px;
+}
+.d2c_offer h1 {
+  text-align: center;
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 0px;
+  line-height: 52px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--light-color);
+}
+
+/* ========================== offer section end ============================ */
+
+/* ========================== packages section start ============================ */
+
+.d2c_packages_main {
+  padding: 100px 0px 100px 0px;
+}
+.d2c_packages_main .d2c_pricing_wrapper {
+  padding-top: 50px;
+}
+.d2c_packages_main .d2c_pricing_wrapper .d2c_pricing_content {
+  padding: 60px 0px 40px 0px;
+  text-align: center;
+  border-radius: 4px;
+  color: var(--secondary-color);
+  box-shadow: 0px 0px 30px rgb(0 0 0 / 5%);
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.d2c_packages_main .d2c_pricing_wrapper .d2c_pricing_content .d2c_plan_name {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin-bottom: 0px;
+}
+.d2c_packages_main .d2c_pricing_wrapper .d2c_pricing_content h1 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.d2c_packages_main .d2c_pricing_wrapper .d2c_pricing_content .d2c_price {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 53px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+.d2c_packages_main .d2c_pricing_wrapper .d2c_pricing_content ul {
+  padding: 5px 7px 5px 7px;
+}
+.d2c_packages_main .d2c_pricing_wrapper .d2c_pricing_content ul li {
+  list-style-type: none;
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  margin: 10px 0px;
+}
+.d2c_packages_main .d2c_pricing_wrapper .d2c_pricing_content:hover {
+  background: var(--primary-color) !important;
+  transition: 0.4s all ease;
+  color: var(--light-color);
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_packages_main
+  .d2c_pricing_wrapper
+  .d2c_pricing_content:hover
+  .d2c_plan_name {
+  color: var(--light-color) !important;
+}
+.d2c_packages_main .d2c_pricing_wrapper .d2c_pricing_content:hover .d2c_price {
+  color: var(--light-color) !important;
+}
+.d2c_packages_main .d2c_pricing_wrapper .d2c_pricing_content:hover .d2c_order {
+  color: var(--light-color) !important;
+  border-color: var(--light-color) !important;
+}
+.d2c_packages_main .d2c_pricing_wrapper .d2c_pricing_hover_img {
+  display: none;
+}
+.d2c_packages_main
+  .d2c_pricing_wrapper
+  .d2c_pricing_content:hover
+  .d2c_pricing_static {
+  display: none;
+}
+.d2c_packages_main
+  .d2c_pricing_wrapper
+  .d2c_pricing_content:hover
+  .d2c_pricing_hover_img {
+  display: block;
+}
+
+/* ========================== packages section end ============================ */
+
+/* ========================== counter section start ============================ */
+
+.d2c_counter_main {
+  padding: 100px 0px;
+  background: linear-gradient(
+      0deg,
+      rgba(65, 66, 68, 0.8),
+      rgba(65, 66, 68, 0.8)
+    ),
+    url(../images/home_counter_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.d2c_counter_main .d2c_counter_content {
+  color: var(--light-color);
+}
+.d2c_counter_main .d2c_counter_content .d2c_counter_icon_wrapper {
+  margin-bottom: 25px;
+}
+.d2c_counter_main .d2c_counter_content .d2c_counter_icon_wrapper img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.d2c_counter_main .d2c_counter_content p {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+.d2c_counter_main .d2c_counter_content h5 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--light-color);
+  margin-bottom: 0px;
+}
+
+/* ========================== counter section end ============================ */
+
+/* ========================== blog section end ============================ */
+.d2c_home_blog {
+  padding: 100px 0px;
+}
+
+/* ========================== blog section end ============================ */
+
+/* ========================== testimonial section start ============================ */
+
+.d2c_testimonial {
+  padding: 100px 0px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(66, 66, 68, 0.93),
+      rgba(66, 66, 68, 0.93)
+    ),
+    url(../images/home_testimonial_bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.d2c_testimonial .d2c_title {
+  color: var(--light-color) !important;
+}
+.d2c_testimonial .d2c_section_paragraph {
+  color: var(--light-color) !important;
+}
+.d2c_testimonial .d2c_testimonial_content {
+  text-align: center;
+  margin-top: 80px;
+}
+.d2c_testimonial .d2c_testimonial_content .d2c_client_img_wrapper {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.d2c_testimonial .d2c_testimonial_content .d2c_client_img_wrapper img {
+  height: 115px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.d2c_testimonial .d2c_testimonial_content h2 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: var(--light-color);
+  margin: 30px 10px;
+}
+.d2c_testimonial .d2c_testimonial_content p {
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  color: var(--light-color);
+}
+
+.d2c_testimonial .owl-carousel {
+  margin: auto;
+}
+.d2c_testimonial .owl-carousel .owl-nav button.owl-prev {
+  width: 40px;
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: -15%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_testimonial .owl-carousel .owl-nav button.owl-prev:hover {
+  background: var(--primary-color);
+  color: var(--light-color);
+}
+.d2c_testimonial .owl-carousel .owl-nav button.owl-next {
+  width: 40px;
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: -15%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_testimonial .owl-carousel .owl-nav button.owl-next:hover {
+  background: var(--primary-color);
+  color: var(--light-color);
+}
+.d2c_testimonial .owl-carousel .owl-nav button:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+/* ========================== testimonial section end ============================ */
+
+/* ========================== newsletter section start ============================ */
+
+.d2c_newsletter {
+  padding: 100px 0px !important;
+  background-image: url(../images/newsletter_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.d2c_newsletter .d2c_section_title {
+  margin-bottom: 0px;
+}
+.d2c_newsletter input[type="email"] {
+  padding: 20px 30px;
+  width: 50%;
+  text-align: center;
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 100px;
+  background: var(--light-color);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 13%);
+  font-family: var(--secondary-font);
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  opacity: 0.45;
+  margin-top: 10px;
+}
+.d2c_newsletter input[type="email"]:focus {
+  border: none;
+  outline: none;
+}
+.d2c_newsletter .btn {
+  background: transparent !important;
+  border: 3px solid var(--primary-color) !important;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  color: var(--primary-color);
+  margin-top: 15px;
+  padding: 11px 30px 12px 30px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_newsletter .btn:hover {
+  background: var(--primary-color) !important;
+  color: var(--light-color);
+  transition: 0.4s all ease;
+}
+
+/* ========================== newsletter section end ============================ */
+
+/* ========================== Footer section start ============================ */
+
+.d2c_footer {
+  background-image: linear-gradient(
+      0deg,
+      rgba(65, 66, 68, 0.95),
+      rgba(65, 66, 68, 0.95)
+    ),
+    url(../images/footer_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0px 0px 0px;
+  text-align: center;
+}
+.d2c_footer .d2c_footer_logo {
+  margin-bottom: 20px;
+}
+.d2c_footer .d2c_footer_logo img {
+  width: 178px;
+}
+.d2c_footer ul {
+  padding-left: 0px;
+}
+.d2c_footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 4px;
+}
+.d2c_footer ul li a {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: var(--light-color);
+  padding: 8px;
+  text-decoration: none;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_footer ul li a:hover {
+  color: var(--primary-color);
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+
+.d2c_footer .d2c_sub_heading {
+  font-family: var(--primary-font);
+  color: var(--light-color);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  margin-top: 20px;
+}
+.d2c_footer .d2c_footer_icon a {
+  text-decoration: none;
+  margin: 0px 3px;
+}
+
+.d2c_footer .d2c_footer_icon span {
+  background: var(--primary-color);
+  width: 25px;
+  display: inline-flex;
+  height: 25px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_footer .d2c_footer_icon span:hover {
+  background: var(--light-color);
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_footer .d2c_footer_icon span i {
+  color: var(--secondary-color);
+  font-size: 13px;
+}
+.d2c_footer .d2c_footer_icon {
+  margin-bottom: 50px;
+}
+
+/* sub-footer */
+.d2c_footer .d2c_sub_footer {
+  background: var(--secondary-color);
+  padding: 20px 0px;
+}
+.d2c_footer .d2c_sub_footer p {
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+  color: var(--light-color);
+  font-weight: 300;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.d2c_footer .d2c_sub_footer p a {
+  color: var(--light-color);
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_footer .d2c_sub_footer p a:hover {
+  color: var(--primary-color);
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+.d2c_footer .d2c_sub_footer_right p {
+  text-transform: capitalize;
+}
+.d2c_footer .d2c_sub_footer_right .d2c_terms_link {
+  border-right: 2px solid var(--light-color);
+}
+
+/* ========================== Footer section end ============================ */
+
+/* ========================== bottom to top scroll start ============================ */
+
+#scrollToTopBtn {
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  color: var(--primary-color);
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  bottom: 10%;
+  right: 10%;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+#scrollToTopBtn:hover {
+  background: var(--primary-color);
+  color: var(--light-color);
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+#scrollToTopBtn:focus {
+  outline: none;
+}
+#scrollToTopBtn a {
+  color: var(--primary-color);
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+#scrollToTopBtn:hover a {
+  color: var(--light-color);
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+}
+
+/* ========================== bottom to top scroll end ============================ */

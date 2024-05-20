@@ -1,0 +1,99 @@
+/* 
+	======================== ***** ============================= 
+	Template Name: Cleanifer
+	Template URI: https://www.designtocodes.com/product/cleanifer-cleaning-service-bootstrap-template/
+	Description: This is the cleaning service template.
+	Version: 1.1.0
+	Author: designtocodes
+	Author URI: https://www.designtocodes.com
+	Text Domain: Cleanifer
+*/
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+:root {
+  /* Global Color */
+  --primary-color: #8cc63f;
+  --secondary-color: #414244;
+  --light-color: #ffffff;
+
+  /* Global Font */
+  --primary-font: "Lato", sans-serif;
+  --secondary-font: "Open Sans", sans-serif;
+}
+
+/* faq content section start */
+
+.d2c_faq_main {
+  padding: 100px 0px;
+}
+.d2c_faq_main .d2c_specials_header {
+  width: 75%;
+  margin: 23px auto 0px auto;
+  text-align: center;
+}
+.d2c_faq_main .d2c_specials_header p {
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.d2c_faq_main .d2c_faq_question_wrapper {
+  padding: 50px 0px;
+}
+.d2c_faq_main
+  .d2c_faq_question_wrapper
+  .addui-Accordion
+  .addui-Accordion-content
+  p {
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  margin-bottom: 0px;
+}
+
+.d2c_faq_main .d2c_faq_question_wrapper .addui-Accordion {
+  box-shadow: none;
+}
+.d2c_faq_main
+  .d2c_faq_question_wrapper
+  .addui-Accordion
+  .addui-Accordion-header {
+  background: var(--light-color);
+}
+.d2c_faq_main
+  .d2c_faq_question_wrapper
+  .addui-Accordion
+  .addui-Accordion-header
+  h2 {
+  text-align: left;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+.d2c_faq_main
+  .d2c_faq_question_wrapper
+  .addui-Accordion
+  .addui-Accordion-header::after {
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: var(--primary-color) !important;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/* faq content section end */

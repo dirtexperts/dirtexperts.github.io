@@ -1,0 +1,57 @@
+/* 
+	======================== ***** ============================= 
+	Template Name: Cleanifer
+	Template URI: https://www.designtocodes.com/product/cleanifer-cleaning-service-bootstrap-template/
+	Description: This is the cleaning service template.
+	Version: 1.1.0
+	Author: designtocodes
+	Author URI: https://www.designtocodes.com
+	Text Domain: Cleanifer
+*/
+/* privacy policy page css start */
+.d2c_privacy_policy_content {
+  margin-top: 60px;
+}
+.d2c_privacy_policy_main {
+  padding: 100px 0px;
+}
+.d2c_privacy_policy_main .d2c_privacy_policy_content h1 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+.d2c_privacy_policy_main .d2c_privacy_policy_content h1 span {
+  color: var(--primary-color);
+}
+.d2c_privacy_policy_main .d2c_privacy_policy_content h2 {
+  text-align: left;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+.d2c_privacy_policy_main .d2c_privacy_policy_content p {
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.d2c_privacy_policy_main .d2c_privacy_policy_content p a {
+  color: var(--primary-color);
+}
+.d2c_privacy_policy_main .d2c_privacy_policy_content ul li {
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+/* privacy policy page css end */

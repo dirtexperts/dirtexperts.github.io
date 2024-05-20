@@ -1,0 +1,111 @@
+/* 
+	======================== ***** ============================= 
+	Template Name: Cleanifer
+	Template URI: https://www.designtocodes.com/product/cleanifer-cleaning-service-bootstrap-template/
+	Description: This is the cleaning service template.
+	Version: 1.1.0
+	Author: designtocodes
+	Author URI: https://www.designtocodes.com
+	Text Domain: Cleanifer
+*/
+main section:nth-child(1) {
+  padding-bottom: 100px;
+}
+main section:last-child {
+  padding-bottom: 100px;
+}
+
+main section .d2c_section_title p {
+  margin-top: 15px;
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  margin-bottom: 0;
+}
+
+main section .d2c_tags_archive .mb-4 {
+  margin-bottom: 30px !important;
+}
+
+main section .d2c_tags_archive .d2c_tags_col {
+  display: none;
+}
+
+main section .d2c_tags_archive .card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 10px;
+  transition: 1s;
+}
+
+main section .d2c_tags_archive .card .d2c_tag_wrapper {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+main section .d2c_tags_archive .card .d2c_tag_wrapper .card-img-top {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px 4px 4px 4px;
+}
+
+main section .d2c_tags_archive .card .d2c_tag_wrapper .card-body {
+  padding: 10px;
+  position: absolute;
+  bottom: -35%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(140, 198, 63, 0.25);
+  backdrop-filter: blur(12px);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+main section .d2c_tags_archive .card:hover .d2c_tag_wrapper .card-body {
+  bottom: 0;
+  transition: 1s;
+}
+main section .d2c_tags_archive .card .d2c_tag_wrapper .card-body .card-title {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: capitalize;
+  color: var(--light-color);
+}
+
+main section .d2c_tags_archive .card .d2c_tag_wrapper .card-body .card-text {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  text-transform: capitalize;
+  color: var(--light-color);
+}
+
+main section .d2c_tags_archive .card .card-body .btn.d2c_primary_button {
+  color: var(--primary-color);
+  background-color: var(--light-color) !important;
+}
+main section .d2c_tags_archive .card .card-body .btn.d2c_primary_button:hover {
+  color: var(--light-color) !important;
+  background-color: var(--primary-color) !important;
+}
+
+main section .d2c_tags_archive .d2c_loadmore #d2c_tags_loadMore {
+  margin-top: 55px;
+  display: none;
+}
+
+main section .d2c_tags_archive .d2c_loadmore .btn.d2c_primary_button {
+  color: var(--primary-color);
+  background-color: var(--light-color) !important;
+}
+main section .d2c_tags_archive .d2c_loadmore .btn.d2c_primary_button:hover {
+  color: var(--light-color) !important;
+  background-color: var(--primary-color) !important;
+}

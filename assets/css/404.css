@@ -1,0 +1,44 @@
+/* 
+	======================== ***** ============================= 
+	Template Name: Cleanifer
+	Template URI: https://www.designtocodes.com/product/cleanifer-cleaning-service-bootstrap-template/
+	Description: This is the cleaning service template.
+	Version: 1.1.0
+	Author: designtocodes
+	Author URI: https://www.designtocodes.com
+	Text Domain: Cleanifer
+*/
+
+main section .d2c_error {
+  background-image: url("../images/404_bg.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+main section .d2c_error .d2c_error_code {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  font-size: 200px;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+main section .d2c_error .d2c_error_text {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+}
+
+main section .d2c_error .btn.d2c_primary_button {
+  color: var(--primary-color);
+  background-color: var(--light-color) !important;
+}
+main section .d2c_error .btn.d2c_primary_button:hover {
+  color: var(--light-color) !important;
+  background-color: var(--primary-color) !important;
+}
